@@ -7,6 +7,8 @@
 <p align="center">
   <img src= Arquivos/images/brasao.png width="500">
 </p>
+Créditos: Manuella Zorzenon.
+
 
 # **Casa Noctis**
 

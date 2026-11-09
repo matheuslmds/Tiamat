@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="arquivos/images/header_ilum.png" width="100%">
+  <img src="Arquivos/images/header_ilum.png" width="100%">
 </p>
 
 

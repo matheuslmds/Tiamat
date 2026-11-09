@@ -1,0 +1,17 @@
+[I 2026-10-27 09:23:34,191] A new study created in memory with name: no-name-b55a30d1-1f74-4875-a282-cf13affe7092
+[I 2026-10-27 09:23:53,818] Trial 0 finished with value: 6.25853041955278 and parameters: {'usar_selecao': True, 'k': 24, 'n_estimators': 300, 'learning_rate': 0.29019080821203225, 'max_depth': 9, 'min_child_weight': 1.297294890515846, 'subsample': 0.851446566867737, 'colsample_bytree': 0.9182246271442298, 'reg_alpha': 0.11198491371019326, 'reg_lambda': 0.0024881433331419675}. Best is trial 0 with value: 6.25853041955278.
+Traceback (most recent call last):
+  File "/home/matheus2610033/Ilum/sem_2/tiamat/tiamat_hpc/scripts/otimizar.py", line 138, in <module>
+    main()
+  File "/home/matheus2610033/Ilum/sem_2/tiamat/tiamat_hpc/scripts/otimizar.py", line 123, in main
+    estudo.optimize(objetivo, n_trials=args.trials, n_jobs=1, callbacks=[salvar_parcial])
+  File "/home/matheus2610033/miniconda3/envs/tiamat_MLMS/lib/python3.11/site-packages/optuna/study/study.py", line 502, in optimize
+    _optimize(
+  File "/home/matheus2610033/miniconda3/envs/tiamat_MLMS/lib/python3.11/site-packages/optuna/study/_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+  File "/home/matheus2610033/miniconda3/envs/tiamat_MLMS/lib/python3.11/site-packages/optuna/study/_optimize.py", line 177, in _optimize_sequential
+    callback(study, copy.deepcopy(frozen_trial))
+  File "/home/matheus2610033/Ilum/sem_2/tiamat/tiamat_hpc/scripts/otimizar.py", line 109, in salvar_parcial
+    temporario,
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'temporario' where it is not associated with a value

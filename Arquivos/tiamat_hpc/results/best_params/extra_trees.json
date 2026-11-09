@@ -1,0 +1,27 @@
+{
+  "modelo": "extra_trees",
+  "n_trials": 700,
+  "melhor_mae_cv": 5.1670594856650265,
+  "melhores_parametros": {
+    "usar_selecao": false,
+    "n_estimators": 300,
+    "max_depth": 25,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": 0.9015204317576796
+  },
+  "mae_por_fold": [
+    5.093236284857089,
+    5.176837880073529,
+    5.144202258814388,
+    5.312434691368195,
+    5.108586313211935
+  ],
+  "seed": 210906,
+  "n_folds": 5,
+  "sklearn": "1.9.1",
+  "optuna": "5.0.0",
+  "xgboost": "3.2.0",
+  "python": "3.11.15",
+  "job_id": "22069"
+}

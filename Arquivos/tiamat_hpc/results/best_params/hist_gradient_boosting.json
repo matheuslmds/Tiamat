@@ -1,0 +1,28 @@
+{
+  "modelo": "hist_gradient_boosting",
+  "n_trials": 700,
+  "melhor_mae_cv": 5.419929503833575,
+  "melhores_parametros": {
+    "usar_selecao": false,
+    "learning_rate": 0.13131399638146077,
+    "max_iter": 500,
+    "max_leaf_nodes": 60,
+    "max_depth": null,
+    "min_samples_leaf": 11,
+    "l2_regularization": 1.3118998761846468
+  },
+  "mae_por_fold": [
+    5.326156979190585,
+    5.417769220218308,
+    5.325877001939782,
+    5.455787328105223,
+    5.5740569897139745
+  ],
+  "seed": 210906,
+  "n_folds": 5,
+  "sklearn": "1.9.1",
+  "optuna": "5.0.0",
+  "xgboost": "3.2.0",
+  "python": "3.11.15",
+  "job_id": "22073"
+}

@@ -1,0 +1,28 @@
+{
+  "modelo": "random_forest",
+  "n_trials": 700,
+  "melhor_mae_cv": 5.4703648323526375,
+  "melhores_parametros": {
+    "usar_selecao": false,
+    "n_estimators": 400,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": 0.4297572653572164,
+    "max_samples": 0.998858104692242
+  },
+  "mae_por_fold": [
+    5.379288747408338,
+    5.462126693772519,
+    5.476170182706169,
+    5.6192390449246234,
+    5.414999492951537
+  ],
+  "seed": 210906,
+  "n_folds": 5,
+  "sklearn": "1.9.1",
+  "optuna": "5.0.0",
+  "xgboost": "3.2.0",
+  "python": "3.11.15",
+  "job_id": "22068"
+}

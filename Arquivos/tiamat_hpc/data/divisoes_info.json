@@ -1,0 +1,8 @@
+{
+  "seed": 210906,
+  "n_registros": 21263,
+  "n_treino": 16938,
+  "n_teste": 4325,
+  "n_folds": 5,
+  "agrupamento": "string de material com espacos removidos; revisar equivalencias quimicas"
+}

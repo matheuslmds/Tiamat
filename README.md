@@ -7,7 +7,12 @@
 <p align="center">
   <img src= Arquivos/images/brasao.png width="500">
 </p>
+<p align="center">
+  Créditos: Manuella Zorzenon.
+</p>
 
+
+<br><br>
 # **Casa Noctis**
 
 <h1 style="text-align: center;">"Onde a luz se extingue, nosso juramento permanece."</h1>
